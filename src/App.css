@@ -1,0 +1,93 @@
+:root {
+  --main-color: rgb(195, 132, 14);
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+.inactive {
+  display: none;
+}
+
+/* ----------------------------------- */
+/* --------------- MAIN -------------- */
+/* ----------------------------------- */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+div > input {
+  width: 300px;
+  padding: 8px;
+  background-color: whitesmoke;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.info > div {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  gap: 10px;
+  padding: 20px 15px;
+  width: 300px;
+  border-radius: 8px;
+}
+.info > button {
+  width: 200px;
+}
+.info span {
+  font-weight: bold;
+}
+button {
+  background-color: var(--main-color);
+  border: none;
+  font-size: 16px;
+  width: 300px;
+  padding: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 6px #999;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.red {
+  border: 1px solid red;
+}
+/* ----------------------------------- */
+/* -------------- FOOTER ------------- */
+/* ----------------------------------- */
+footer {
+  text-align: center;
+  margin-top: 80px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
